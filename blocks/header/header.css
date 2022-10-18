@@ -1,7 +1,7 @@
 .header {
   font-family: 'Inter';
   color: #FFFFFF;
-  display: flex; 
+  display: flex;
   margin: 0 16px;
   padding: 16px 0 0;
   height: 42px;
@@ -11,7 +11,7 @@
   .header {  
     margin: 0 24px;
     height: 52px;
-    padding: 28px 0 0;  
+    padding: 28px 0 0;
   }
 }
 @media screen and (min-width: 1024px) {
