@@ -8,7 +8,7 @@
   justify-content: space-between;
 }
 @media screen and (min-width: 768px) {
-  .header {  
+  .header {
     margin: 0 24px;
     height: 52px;
     padding: 28px 0 0;
