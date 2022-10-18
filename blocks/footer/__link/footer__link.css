@@ -4,10 +4,9 @@
   font-size: 24px;
   line-height: 24px;
   font-weight: 400;
-  color: inherit;  
+  color: inherit;
   cursor: pointer;
   text-decoration: none;
-  cursor: pointer;
   transition: opacity 0.3s ease-in-out;
 }
 @media screen and (min-width: 768px) {

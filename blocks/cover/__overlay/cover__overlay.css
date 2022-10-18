@@ -10,7 +10,7 @@
   background-position: center;
   background-repeat: no-repeat;
   box-sizing: border-box;
-  color: inherit;  
+  color: inherit;
   cursor: pointer;
   z-index: 1;
 }
@@ -18,19 +18,19 @@
   .cover__overlay {
     padding-top: 115px;
     padding-bottom: 115px;
-  } 
+  }
 }
 @media screen and (min-width: 1024px) {
   .cover__overlay {
     padding-top: 195px;
     padding-bottom: 195px;
-  } 
+  }
 }
 @media screen and (min-width: 1280px) {
   .cover__overlay {
     padding-top: 245px;
     padding-bottom: 245px;
-  } 
+  }
 }
 .cover__overlay::after {
   content: '';
