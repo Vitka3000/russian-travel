@@ -1,0 +1,21 @@
+.header {
+  font-family: 'Inter';
+  color: #FFFFFF;
+  display: flex; 
+  margin: 0 16px;
+  padding: 16px 0 0;
+  height: 42px;
+  justify-content: space-between;
+}
+@media screen and (min-width: 768px) {
+  .header {  
+    margin: 0 24px;
+    height: 52px;
+    padding: 28px 0 0;  
+  }
+}
+@media screen and (min-width: 1024px) {
+  .header {
+    margin: 0 48px;
+  }
+}

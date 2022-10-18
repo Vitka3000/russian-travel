@@ -1,0 +1,33 @@
+.place {
+  font-family: 'Inter';
+  color: #FFFFFF;
+  width: 100%;
+  display: grid;
+  margin: 0;
+  padding: 0;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(4, min-content);
+  box-sizing: border-box;
+  gap: 32px;
+}
+@media screen and (min-width: 768px) {
+  .place {
+    gap: 48px 28px;
+    grid-template-columns: min-content auto;
+    grid-template-rows: repeat(2, min-content);
+  }
+}
+@media screen and (min-width: 1024px) {
+  .place {
+    gap: 48px 32px;
+    grid-template-columns: min-content auto;
+    grid-template-rows: repeat(2, min-content);
+  }
+}
+@media screen and (min-width: 1280px) {
+  .place {
+    gap: 48px 40px;
+    grid-template-columns: min-content auto;
+    grid-template-rows: repeat(2, min-content);
+  }
+}

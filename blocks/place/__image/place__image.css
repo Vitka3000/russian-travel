@@ -1,0 +1,22 @@
+.place__image {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  object-fit: contain;
+  justify-self: center;
+}
+@media screen and (min-width: 768px) {
+  .place__image {
+    width: 340px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .place__image {
+    width: 440px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .place__image {
+    width: 460px;
+  }
+}
