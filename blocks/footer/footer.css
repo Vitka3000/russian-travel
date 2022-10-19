@@ -1,19 +1,23 @@
 .footer {
-  font-family: 'Inter';
   color: #FFFFFF;
   margin: 0 auto 24px 16px;
   padding: 0;
 }
 @media screen and (min-width: 768px) {
   .footer {
-    margin: 0 24px 24px;
+    margin-left: auto;
+    width: calc((720/768)*100%);
     display: flex;
     justify-content: space-between;
   }
 }
 @media screen and (min-width: 1024px) {
   .footer {
-    margin-left: 48px;
-    margin-right: 48px;
+    width: calc((928/1024)*100%);
+  }
+}
+@media screen and (min-width: 1280px) {
+  .footer {
+    width: 1184px;
   }
 }
