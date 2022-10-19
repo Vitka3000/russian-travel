@@ -7,7 +7,8 @@
 }
 @media screen and (min-width: 768px) {
   .place__paragraphs {
-    margin: 0;
+    margin-left: 0;
+    margin-right: 0;
   }
 }
 @media screen and (min-width: 1024px) {
