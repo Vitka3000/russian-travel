@@ -3,12 +3,12 @@
   display: flex;
   justify-content: space-between;
   padding: 16px 0 0;
-  height: 42px;
+  min-height: 42px;
   width: 90%;
 }
 @media screen and (min-width: 768px) {
   .header {
-    height: 52px;
+    min-height: 52px;
     padding-top: 28px;
     width: calc((720/768)*100%);
   }
